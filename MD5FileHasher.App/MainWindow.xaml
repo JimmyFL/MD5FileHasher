@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MD5FileHasher.App"
         mc:Ignorable="d"
-        Title="MD5FileHasher" Height="200" Width="700">
+        Title="MD5FileHasher" Height="200" Width="700"
+        ResizeMode="CanMinimize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
