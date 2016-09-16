@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MD5FileHasher.App"
         mc:Ignorable="d"
-        Title="MD5FileHasher" Height="200" Width="500">
+        Title="MD5FileHasher" Height="200" Width="700">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -14,6 +14,10 @@
         
         <Button Grid.Row="0" Margin="10" Click="OpenFile_BtnClick">Open file</Button>
 
-        <Label Grid.Row="1" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Name="HashLabel" FontWeight="Bold"></Label>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="10, 10, 10, 20" VerticalAlignment="Center" >
+            <Label   Name="FilePathLabel"></Label>
+            <Label Name="HashLabel" FontWeight="Bold" HorizontalContentAlignment="Center" ></Label>
+        </StackPanel>
+        
     </Grid>
 </Window>

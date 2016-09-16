@@ -16,6 +16,8 @@ namespace MD5FileHasher.App
         private void OpenFile_BtnClick(object sender, RoutedEventArgs e)
         {
             var filePath = GetFilePath();
+
+            FilePathLabel.Content = filePath;
             HashLabel.Content = GetHashFromFilePath(filePath);
         }
 
