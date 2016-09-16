@@ -15,7 +15,7 @@
         <Button Grid.Row="0" Margin="10" Click="OpenFile_BtnClick">Open file</Button>
 
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="10, 10, 10, 20" VerticalAlignment="Center" >
-            <Label   Name="FilePathLabel"></Label>
+            <Label   Name="FilePathLabel" HorizontalContentAlignment="Center"></Label>
             <Label Name="HashLabel" FontWeight="Bold" HorizontalContentAlignment="Center" ></Label>
         </StackPanel>
         
